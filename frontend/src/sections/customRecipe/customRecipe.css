@@ -1,0 +1,32 @@
+.custom-recipe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1.5rem;
+    width: 80%;
+}
+
+.input-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    gap: .5rem;
+}
+
+.ingredients-input {
+    width: 60%;
+}
+
+.description-input {
+    width: 80%;
+}
+
+.custom-recipe-form button {
+    padding: 1rem;
+    border: none;
+
+    background-color: aliceblue;
+}

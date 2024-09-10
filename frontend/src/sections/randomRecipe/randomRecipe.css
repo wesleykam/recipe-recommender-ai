@@ -1,0 +1,95 @@
+.random-recipe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+    
+    gap: 5rem;
+
+    font-size: 1.25rem;
+    
+}
+
+.random-recipe-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    background-color: aliceblue;
+    padding: 2rem;
+
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px rgba(138, 138, 138, 0.399);
+
+    width: 50%;
+}
+
+.list {
+    list-style-position: inside;
+}
+
+
+.directions, .ingredients {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.directions h4, .ingredients h4 {
+    text-decoration: underline;
+}
+
+.random-recipe-right {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.random-recipe-image {
+    padding: 1rem 1rem 4.5rem 1rem;
+    height: 50%;
+
+    background-color: aliceblue;
+
+    box-shadow: 0 0 10px 1px rgba(138, 138, 138, 0.399);
+}
+
+.random-recipe-selection {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.random-recipe-selection button {
+    padding: 2rem;
+    border-radius: 10px;
+    border: none;
+
+    flex: 1;
+    box-shadow: 0 0 10px 1px rgba(138, 138, 138, 0.399);
+}
+
+.like {
+    background-color: rgb(150, 244, 150);
+    transition: background-color .3s;
+
+}
+
+.like:hover {
+    background-color: rgb(103, 250, 103);
+    transition: background-color .3s;
+}
+
+.pass {
+    background-color: rgb(244, 150, 150);
+    transition: background-color .3s;
+}
+
+.pass:hover {
+    background-color: rgb(250, 103, 103);
+    transition: background-color .3s;
+}

@@ -1,0 +1,33 @@
+.container.toggle-container {
+    padding-bottom: 0;
+}
+
+.toggles {
+    display: flex;
+}
+
+button.random,
+button.custom {
+    background-color: aliceblue;
+
+    padding: 1rem 2rem;
+
+    border: 3px aliceblue solid;
+}
+
+.random {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+}
+
+.custom {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: none;
+
+}
+
+button.selected {
+    background-color: rgb(212, 212, 212);
+}
